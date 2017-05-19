@@ -35,4 +35,8 @@ void main()
    std2.set_id(2014136124);
    std1.print();
    std2.print();
+   Student std3;
+   std3.set_name("JMH");
+   std3.set_id(24);
+   std3.print();
 }
