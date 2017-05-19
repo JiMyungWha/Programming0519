@@ -27,6 +27,18 @@ public:
       cout<<"id: "<<id<<endl;
    }
 };
+class Computer : public Student
+{
+private:
+   int member;
+public:
+   Computer(char *n,int i,int m) : Student(n,i),member(m) {}
+   void print()
+   {
+      Student::print();
+      cout<<"member:"<<member<<endl;
+   }
+};
 void main()
 {
    Student std1("JiMyungHwa",2014136124);
@@ -39,4 +51,6 @@ void main()
    std3.set_name("JMH");
    std3.set_id(24);
    std3.print();
+   Computer com1("J_M_H",2014136124,24);
+   com1.print();
 }
