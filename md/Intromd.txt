@@ -1,0 +1,24 @@
+#INTRODUCTION.MD
+
+##list
+1. First 
+..* Name : JiMyungWHa
+2. Second 
+..* *GroupNum : 4*
+3. Third 
+..* E-mail : **battlesun99@naver.com**
+
+>Hi! My name is JiMyungWha
+
+[Use the github](https://github.com)
+[Use the github][github]
+
+![Image](https://www.google.com)
+
+|Tables  |number  |Info       |
+|--------|:------:|----------:|
+|Name    |1       |JiMyungWha |
+|Group   |2       |4          |
+
+``` Inline code ```
+
